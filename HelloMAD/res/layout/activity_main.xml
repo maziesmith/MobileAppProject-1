@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_team_members"
+        android:text="@string/team_members"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"        
+     ></Button>
+    
+    <Button
+        android:id="@+id/btn_sudoku"
+        android:text="@string/sudoku"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_team_members"
+     ></Button>
+    
+    <Button
+        android:id="@+id/btn_error"
+        android:text="@string/error"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_sudoku"
+     ></Button>
+    
+    <Button
+        android:id="@+id/btn_boggle"
+        android:text="@string/boggle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_error"        
+     ></Button>
+    
+    <Button
+        android:id="@+id/btn_persistentboggle"
+        android:text="@string/persistentboggle"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_boggle"        
+     ></Button>
+    
+    <Button
+        android:id="@+id/btn_quit"
+        android:text="@string/quit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_persistentboggle"
+     ></Button>
+
+</RelativeLayout>
